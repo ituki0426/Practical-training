@@ -1,3 +1,3 @@
 # 問題点
 
-sample.csvの
+```sample.csv```の49行目の```Hong Kong China```は本来``` "Hong Kong,China" ```である。
