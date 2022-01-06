@@ -2,6 +2,8 @@
 
 ```sample.csv```の49行目の```Hong Kong China```は本来``` "Hong Kong,China" ```である。
 
+しかし、```"Hong Kong,China" ```とすると正常に動作しない。
+
 理由
 
 カンマ(,)で区切られっている。
