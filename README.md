@@ -15,4 +15,9 @@
 問題のソースコード
 
 ```c
+for(i=0;i<column_nuber;i++){
+  char buf[256];
+  fgets(buf,255,fp);
+  sscanf(buf," %[^,],%[^,],%[^,],%s",name[i],gold[i],shilver[i],blonde[i]);
+}
 ```
