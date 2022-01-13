@@ -41,7 +41,7 @@ void Add(){
   int shilver;
   int blonde;
   printf("国名を入力してください:");
-  scanf("%s",name);
+  gets(name);
   printf("金メダルの数を入力してください:");
   scanf("%d",&gold);
   printf("銀メダルの数を入力してください");
